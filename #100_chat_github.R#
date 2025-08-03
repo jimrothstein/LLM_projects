@@ -22,7 +22,7 @@ ls()
 ?gander
 #----------------------- gemini
 Sys.getenv("GEMINI_API_KEY")
-ellmer::chat_google_gemini(api_key = Sys.getenv("GEMINI_API_KEY"))
+chat  <- ellmer::chat_google_gemini(api_key = Sys.getenv("GEMINI_API_KEY"))
 ?chat_google_gemini
 
 
