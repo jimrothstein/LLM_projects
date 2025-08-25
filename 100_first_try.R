@@ -5,7 +5,7 @@ pak::pak("ollamar")
 library(ellmer)
 library(ollamar)
 
-chat = chat_gemini(api_key=Sys.getenv("GOOGLE_API_KEY"))
+chat = chat_google_gemini(api_key=Sys.getenv("GOOGLE_API_KEY"))
 chat$chat("Who is the US President?")
 
 
