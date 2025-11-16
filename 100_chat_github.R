@@ -6,6 +6,8 @@ library(gander)
 library(chores)
 library(ensure)
 
+
+
 chores_chat  <-   ellmer::chat_github(model = "gpt-4o")
 
 ensure_fn = "chat_github"
