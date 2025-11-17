@@ -5,6 +5,8 @@ pak::pak("ollamar")
 library(ellmer)
 library(ollamar)
 
+
+#----------------------- gemini does not work,  TODO: use free model
 chat = chat_google_gemini(api_key=Sys.getenv("GOOGLE_API_KEY"))
 chat$chat("Who is the US President?")
 

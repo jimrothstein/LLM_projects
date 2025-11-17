@@ -1,4 +1,5 @@
 ## REF
+
 ## https://www.freecodecamp.org/news/how-to-create-a-deepseek-r1-api-in-r-with-plumber/
 
 api_key=Sys.getenv("HUGGING_FACE_TOKEN")
@@ -8,7 +9,7 @@ library(plumber)
 
 
 #* @post /deepseek_chat
-f  <- function(prompt) {
+function(prompt) {
   url <- "https://huggingface.co/api/inference-proxy/together/v1/chat/completions"
 
   # Create a request object
@@ -34,8 +35,3 @@ f  <- function(prompt) {
   content <- parsed_data$choices
   return(content)
 }
-
-f("Who is US president?")
-
-
-
