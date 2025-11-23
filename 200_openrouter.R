@@ -64,3 +64,9 @@ chat  <- ellmer::chat_openrouter(model = "kwaipilot/kat-coder-pro:free",
 chat$chat("Tell me 1 joke")
 
 gander::gander_peek()
+
+# also works
+chat  <- ellmer::chat_openrouter(model = "qwen/qwen3-vl-8b-instruct",
+                         api_key = Sys.getenv("OPENROUTER_API_KEY"))
+
+chat$chat("In math, what is an ellipse?")
