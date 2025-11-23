@@ -1,5 +1,5 @@
 
-# Make AI Agent
+# Make AI Agent, in R, READ R help files
 # 1. create function
 # 2. create tool, using function
 # 3. register tool
