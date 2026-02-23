@@ -17,6 +17,3 @@ chat <- ellmer::chat_google_gemini(
 querychat_app(x,
               greeting = "Translate English to SQL",
               client = chat)
-
-
-
