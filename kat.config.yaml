@@ -1,3 +1,0 @@
-# kat.config.yaml
-model: "openrouter/kwaipilot/kat-coder-pro-v1"
-openrouter-api-key: ${OPENROUTER_API_KEY}
